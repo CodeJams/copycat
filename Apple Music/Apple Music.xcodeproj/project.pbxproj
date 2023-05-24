@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F248A97B2A1E424000D29A5B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248A97A2A1E424000D29A5B /* UIImage+Extension.swift */; };
 		FA2688982A1CFCBD0043DF90 /* Apple_MusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2688972A1CFCBD0043DF90 /* Apple_MusicApp.swift */; };
 		FA26889A2A1CFCBD0043DF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2688992A1CFCBD0043DF90 /* ContentView.swift */; };
 		FA26889C2A1CFCBD0043DF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F248A97A2A1E424000D29A5B /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		FA2688942A1CFCBD0043DF90 /* Apple Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2688972A1CFCBD0043DF90 /* Apple_MusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_MusicApp.swift; sourceTree = "<group>"; };
 		FA2688992A1CFCBD0043DF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		FA26888B2A1CFCBD0043DF90 = {
 			isa = PBXGroup;
 			children = (
+				F248A97A2A1E424000D29A5B /* UIImage+Extension.swift */,
 				FA2688962A1CFCBD0043DF90 /* Apple Music */,
 				FA2688952A1CFCBD0043DF90 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F248A97B2A1E424000D29A5B /* UIImage+Extension.swift in Sources */,
 				FA26889A2A1CFCBD0043DF90 /* ContentView.swift in Sources */,
 				FA2688982A1CFCBD0043DF90 /* Apple_MusicApp.swift in Sources */,
 			);
