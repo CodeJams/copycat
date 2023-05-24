@@ -7,8 +7,13 @@ let musicController = MusicController()
 
 struct ContentView: View {
     @State var isPaused = true
+    @State private var backgroundColor: UIColor = .clear
+    private let image = "backgroundImage"
+
     var body: some View {
-        VStack {
+        ZStack {
+            Color(backgroundColor).ignoresSafeArea()
+            VStack {
             HStack(spacing: 76){
                 Button (action: {musicController.playMusic()}){
                     Image(systemName: "backward.fill")
@@ -35,8 +40,17 @@ struct ContentView: View {
                 }
             }
             
-        }
-        .padding()
+        }.padding()
+
+        }.edgesIgnoringSafeArea(.all)
+            .onAppear {self.setAverageColor()}
+        
+    } 
+    
+    //Devolve a cor média
+    private func setAverageColor() {
+        let uiColor = UIImage(named: image)?.averageColor
+        backgroundColor = uiColor ?? .clear
     }
 }
 
@@ -45,3 +59,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
