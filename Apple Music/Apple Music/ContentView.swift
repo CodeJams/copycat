@@ -7,6 +7,7 @@ struct ContentView: View {
     @State private var backgroundColor: UIColor = .clear
     var image = ["imagem1", "imagem2", "imagem3"]
     @State var index = 0
+	@StateObject var musicController = MusicController()
 
     var body: some View {
         ZStack {
@@ -22,6 +23,7 @@ struct ContentView: View {
                     .foregroundColor(Color.black)
                     .opacity(0.4)
             }
+            
             VStack {                
                 HStack(spacing: 76){
                     Button (action: {
@@ -65,8 +67,14 @@ struct ContentView: View {
                     }
                 }
                 
+//                AppleMusicProgressBar(currentTime: $musicController.currentTime, duration: musicController.duration)
+//
             }.padding()
-        }.edgesIgnoringSafeArea(.all)
+			
+            
+        }.padding()
+
+            .edgesIgnoringSafeArea(.all)
             .onAppear {self.setAverageColor()}
         
     } 
