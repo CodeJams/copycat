@@ -12,8 +12,10 @@
 		FA26889A2A1CFCBD0043DF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2688992A1CFCBD0043DF90 /* ContentView.swift */; };
 		FA26889C2A1CFCBD0043DF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */; };
 		FA26889F2A1CFCBD0043DF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26889E2A1CFCBD0043DF90 /* Preview Assets.xcassets */; };
+		FAD66A2D2A1F84870053A584 /* musica2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAD66A2C2A1F84870053A584 /* musica2.mp3 */; };
+		FAD66A2F2A1F84C70053A584 /* musica3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAD66A2E2A1F84C70053A584 /* musica3.mp3 */; };
 		FAE4BF5A2A1E3936002B5DA2 /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE4BF592A1E3936002B5DA2 /* MusicController.swift */; };
-		FAE4BF5E2A1E3A81002B5DA2 /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAE4BF5D2A1E3A81002B5DA2 /* musica.mp3 */; };
+		FAE4BF5E2A1E3A81002B5DA2 /* musica1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAE4BF5D2A1E3A81002B5DA2 /* musica1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +25,10 @@
 		FA2688992A1CFCBD0043DF90 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA26889E2A1CFCBD0043DF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAD66A2C2A1F84870053A584 /* musica2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica2.mp3; sourceTree = "<group>"; };
+		FAD66A2E2A1F84C70053A584 /* musica3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica3.mp3; sourceTree = "<group>"; };
 		FAE4BF592A1E3936002B5DA2 /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
-		FAE4BF5D2A1E3A81002B5DA2 /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica.mp3; sourceTree = "<group>"; };
+		FAE4BF5D2A1E3A81002B5DA2 /* musica1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				FA26889E2A1CFCBD0043DF90 /* Preview Assets.xcassets */,
-				FAE4BF5D2A1E3A81002B5DA2 /* musica.mp3 */,
+				FAE4BF5D2A1E3A81002B5DA2 /* musica1.mp3 */,
+				FAD66A2C2A1F84870053A584 /* musica2.mp3 */,
+				FAD66A2E2A1F84C70053A584 /* musica3.mp3 */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -103,6 +109,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"com.apple.gamecenter.Leaderboard Set",
+				);
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
@@ -135,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA26889F2A1CFCBD0043DF90 /* Preview Assets.xcassets in Resources */,
-				FAE4BF5E2A1E3A81002B5DA2 /* musica.mp3 in Resources */,
+				FAE4BF5E2A1E3A81002B5DA2 /* musica1.mp3 in Resources */,
 				FA26889C2A1CFCBD0043DF90 /* Assets.xcassets in Resources */,
+				FAD66A2D2A1F84870053A584 /* musica2.mp3 in Resources */,
+				FAD66A2F2A1F84C70053A584 /* musica3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
