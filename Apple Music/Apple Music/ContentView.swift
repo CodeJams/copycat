@@ -9,6 +9,7 @@ struct ContentView: View {
     @State var isPaused = true
     @State private var backgroundColor: UIColor = .clear
     private let image = "backgroundImage"
+	@StateObject var musicController = MusicController()
 
     var body: some View {
         ZStack {
@@ -39,6 +40,7 @@ struct ContentView: View {
                         .frame(width: 53, height: 40, alignment: .center)
                 }
             }
+			AppleMusicProgressBar(currentTime: $musicController.currentTime, duration: musicController.duration).scenePadding()
             
         }.padding()
 

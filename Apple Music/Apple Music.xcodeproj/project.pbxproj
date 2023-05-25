@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B7FCC62A1F8A4C00646ABE /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B7FCC52A1F8A4C00646ABE /* ProgressBar.swift */; };
 		F248A97B2A1E424000D29A5B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248A97A2A1E424000D29A5B /* UIImage+Extension.swift */; };
 		FA2688982A1CFCBD0043DF90 /* Apple_MusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2688972A1CFCBD0043DF90 /* Apple_MusicApp.swift */; };
 		FA26889A2A1CFCBD0043DF90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2688992A1CFCBD0043DF90 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C2B7FCC52A1F8A4C00646ABE /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		F248A97A2A1E424000D29A5B /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		FA2688942A1CFCBD0043DF90 /* Apple Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2688972A1CFCBD0043DF90 /* Apple_MusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_MusicApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				FA2688972A1CFCBD0043DF90 /* Apple_MusicApp.swift */,
 				FA2688992A1CFCBD0043DF90 /* ContentView.swift */,
 				FAE4BF592A1E3936002B5DA2 /* MusicController.swift */,
+				C2B7FCC52A1F8A4C00646ABE /* ProgressBar.swift */,
 				FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */,
 				FA26889D2A1CFCBD0043DF90 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 				FAE4BF5A2A1E3936002B5DA2 /* MusicController.swift in Sources */,
 				F248A97B2A1E424000D29A5B /* UIImage+Extension.swift in Sources */,
 				FA26889A2A1CFCBD0043DF90 /* ContentView.swift in Sources */,
+				C2B7FCC62A1F8A4C00646ABE /* ProgressBar.swift in Sources */,
 				FA2688982A1CFCBD0043DF90 /* Apple_MusicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

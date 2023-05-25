@@ -1,9 +1,20 @@
 import UIKit
 import AVFoundation
 
-class MusicController: UIViewController {
+class MusicController: UIViewController, ObservableObject {
 
-    var audioPlayer: AVAudioPlayer?
+    private var audioPlayer: AVAudioPlayer?
+	
+	// Metadados para controlar o tempo
+	@Published var currentTime: TimeInterval = 0
+	
+	var duration: TimeInterval {
+		audioPlayer?.duration ?? 0
+	}
+	
+	var isPlaying: Bool {
+		audioPlayer?.isPlaying ?? false
+	}
     
     @objc func playMusic() {
         guard let url = Bundle.main.url(forResource: "musica", withExtension: "mp3") else {
@@ -25,3 +36,9 @@ class MusicController: UIViewController {
     }
 
 }
+
+//extension MusicPlayer: AVAudioPlayerDelegate {
+//	func audioPlayerDidFinishPlaying(_ player: AVAudioPlayer, successfully flag: Bool) {
+//		// Handle playback finished event if needed
+//	}
+//}
