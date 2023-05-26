@@ -3,7 +3,7 @@ import UIKit
 
 struct MusicPlayer: View {
     
-    @State var image = ["imagem1", "imagem2", "imagem3"]
+    @State var image = ["imagem1", "imagem2", "imagem4", "imagem4"]
     @State private var backgroundColor: UIColor = .clear
     @State var isPaused = true
     @State var index = 0

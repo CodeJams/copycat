@@ -7,13 +7,17 @@ struct Backgroud: View {
     
     var body: some View {
         Image(image[index])
-          .blur(radius:20.0)
-          .aspectRatio(contentMode: .fill)
-          .edgesIgnoringSafeArea(.all)
-        Color(backgroundColor).ignoresSafeArea()
+            .resizable()
+            .blur(radius:40.0)
+            .edgesIgnoringSafeArea(.all)
+            .aspectRatio(contentMode: .fill)
+        Color(backgroundColor)
+            .ignoresSafeArea()
             .opacity(0.8)
         Rectangle()
             .foregroundColor(Color.black)
-            .opacity(0.4)
+            .opacity(0.3)
+            .edgesIgnoringSafeArea(.all)
+
     }
 }
