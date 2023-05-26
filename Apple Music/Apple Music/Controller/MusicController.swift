@@ -3,7 +3,7 @@ import AVFoundation
 
 class MusicController: UIViewController, ObservableObject {
     
-    var listaDeMusicas = ["musica1", "musica2", "musica3"]
+    var listaDeMusicas = ["musica1", "musica2", "musica3", "musica3"]
     var audioPlayer: AVAudioPlayer?
 	
 	// Metadados para controlar o tempo
