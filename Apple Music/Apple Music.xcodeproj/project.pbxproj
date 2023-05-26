@@ -14,6 +14,7 @@
 		FA26889C2A1CFCBD0043DF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */; };
 		FA26889F2A1CFCBD0043DF90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA26889E2A1CFCBD0043DF90 /* Preview Assets.xcassets */; };
 		FA66241D2A20D2DA0065943B /* MusicCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66241C2A20D2DA0065943B /* MusicCoverView.swift */; };
+		FA6624212A20E4310065943B /* NameMusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6624202A20E4310065943B /* NameMusicView.swift */; };
 		FAD66A2D2A1F84870053A584 /* musica2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAD66A2C2A1F84870053A584 /* musica2.mp3 */; };
 		FAD66A2F2A1F84C70053A584 /* musica3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FAD66A2E2A1F84C70053A584 /* musica3.mp3 */; };
 		FAD66A362A1F9AC60053A584 /* Backgroud.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD66A352A1F9AC60053A584 /* Backgroud.swift */; };
@@ -30,6 +31,7 @@
 		FA26889B2A1CFCBD0043DF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA26889E2A1CFCBD0043DF90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA66241C2A20D2DA0065943B /* MusicCoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicCoverView.swift; sourceTree = "<group>"; };
+		FA6624202A20E4310065943B /* NameMusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameMusicView.swift; sourceTree = "<group>"; };
 		FAD66A2C2A1F84870053A584 /* musica2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica2.mp3; sourceTree = "<group>"; };
 		FAD66A2E2A1F84C70053A584 /* musica3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica3.mp3; sourceTree = "<group>"; };
 		FAD66A352A1F9AC60053A584 /* Backgroud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backgroud.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				C2B7FCC52A1F8A4C00646ABE /* ProgressBar.swift */,
 				FAD66A352A1F9AC60053A584 /* Backgroud.swift */,
 				FA66241C2A20D2DA0065943B /* MusicCoverView.swift */,
+				FA6624202A20E4310065943B /* NameMusicView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				FA66241D2A20D2DA0065943B /* MusicCoverView.swift in Sources */,
 				FAE4BF5A2A1E3936002B5DA2 /* MusicController.swift in Sources */,
 				FAD66A362A1F9AC60053A584 /* Backgroud.swift in Sources */,
+				FA6624212A20E4310065943B /* NameMusicView.swift in Sources */,
 				F248A97B2A1E424000D29A5B /* UIImage+Extension.swift in Sources */,
 				FA26889A2A1CFCBD0043DF90 /* MusicPlayer.swift in Sources */,
 				C2B7FCC62A1F8A4C00646ABE /* ProgressBar.swift in Sources */,
