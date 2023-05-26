@@ -2,9 +2,9 @@ import UIKit
 import AVFoundation
 
 class MusicController: UIViewController, ObservableObject {
-
-    var audioPlayer: AVAudioPlayer?
+    
     var listaDeMusicas = ["musica1", "musica2", "musica3"]
+    var audioPlayer: AVAudioPlayer?
 	
 	// Metadados para controlar o tempo
 	@Published var currentTime: TimeInterval = 0
