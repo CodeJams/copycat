@@ -10,7 +10,6 @@ struct Backgroud: View {
             .resizable()
             .blur(radius:40.0)
             .edgesIgnoringSafeArea(.all)
-            .aspectRatio(contentMode: .fill)
         Color(backgroundColor)
             .ignoresSafeArea()
             .opacity(0.8)
