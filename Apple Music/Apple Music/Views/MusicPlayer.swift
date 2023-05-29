@@ -8,6 +8,7 @@ struct MusicPlayer: View {
     @State var isPaused = true
     @State var index = 0
 	@StateObject var musicController = MusicController()
+    @State var musicCoverSize = 252
 
     var body: some View {
         ZStack {
@@ -15,8 +16,9 @@ struct MusicPlayer: View {
             Backgroud(index: $index, backgroundColor: $backgroundColor, image: $image)
             
             VStack {
-                MusicCoverView(index: $index, image: $image)
-                    .foregroundColor(.white)
+
+                MusicCoverView(index: $index, image: $image, musicCoverSize: $musicCoverSize)
+                
                 //Botões para tocar e passar a musica
                 HStack(spacing: 76){
                     Button (action: {
@@ -33,19 +35,22 @@ struct MusicPlayer: View {
 
                     }
                     if(isPaused == true){
-                        Button (action: {musicController.playMusic(index: index); isPaused = false}){
+                        Button (action: {musicController.playMusic(index: index); isPaused = false;                             musicCoverSize = 362
+}){
                             Image(systemName: "play.fill")
                                 .resizable()
                                 .frame(width: 35, height: 45, alignment: .center)
                                 .foregroundColor(Color.white)
+                            
 
                         }
                     }else{
-                        Button (action: {musicController.pauseMusic(); isPaused = true}){
+                        Button (action: {musicController.pauseMusic(); isPaused = true;                             musicCoverSize = 252}){
                             Image(systemName: "pause.fill")
                                 .resizable()
                                 .frame(width: 35, height: 45, alignment: .center)
                                 .foregroundColor(Color.white)
+
                         }
                     }
                     Button (action: {
