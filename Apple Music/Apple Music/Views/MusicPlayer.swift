@@ -3,7 +3,7 @@ import UIKit
 
 struct MusicPlayer: View {
     
-    @State var image = ["imagem1", "imagem2", "imagem4", "imagem4"]
+    @State var image = ["imagem1", "imagem2", "imagem3", "imagem4"]
     @State private var backgroundColor: UIColor = .clear
     @State var isPaused = true
     @State var index = 0
@@ -16,6 +16,7 @@ struct MusicPlayer: View {
             Backgroud(index: $index, backgroundColor: $backgroundColor, image: $image)
             
             VStack {
+
                 MusicCoverView(index: $index, image: $image, musicCoverSize: $musicCoverSize)
                 
                 //Botões para tocar e passar a musica
@@ -53,7 +54,7 @@ struct MusicPlayer: View {
                         }
                     }
                     Button (action: {
-                        if index == 2{
+                        if index == 3{
                             index = 0
                         }else{
                             index += 1;
